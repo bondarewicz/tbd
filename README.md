@@ -1,2 +1,1 @@
-# tbd
-trunk based development
+reamde.md
