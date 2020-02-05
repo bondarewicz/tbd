@@ -38,3 +38,5 @@ git checkout master
 git merge --squash feat-1
 git commit (esc :wq)
 ```
+
+the end
