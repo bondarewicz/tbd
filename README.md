@@ -39,4 +39,18 @@ git merge --squash feat-1
 git commit (esc :wq)
 ```
 
+
+Final state of master
+
+```
+* eff0037 (HEAD -> master) f1
+| * 58564e2 (feat-1) f1.1
+| * 06dc37b f1
+|/  
+* 34d577b f2
+| * 931bdc4 (feat-2) f2
+|/  
+* 9b1bc0b init
+```
+
 the end
