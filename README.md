@@ -1,5 +1,3 @@
-reamde.md
-
 Create a new branch of `master` for feature-1
 ```
 git checkout master
