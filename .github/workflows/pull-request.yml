@@ -18,7 +18,7 @@ jobs:
         uses: "pascalgn/automerge-action@ecb16453ce68e85b1e23596c8caa7e7499698a84"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: "shipit"
+          MERGE_LABELS: ""
           MERGE_REMOVE_LABELS: "shipit"
           MERGE_METHOD: "squash"
           UPDATE_METHOD: "rebase" 
