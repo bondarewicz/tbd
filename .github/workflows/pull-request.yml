@@ -3,7 +3,7 @@ on: [pull_request]
 
 jobs:
 
-  autolabel:
+  label:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/labeler@v2
@@ -13,7 +13,7 @@ jobs:
   automerge:
     runs-on: ubuntu-latest
     needs:
-      - autolabel
+      - label
     steps:
       - name: automerge
         uses: "pascalgn/automerge-action@ecb16453ce68e85b1e23596c8caa7e7499698a84"
