@@ -19,6 +19,6 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: "shipit"
-          MERGE_REMOVE_LABELS: "automerge"
+          MERGE_REMOVE_LABELS: "shipit"
           MERGE_METHOD: "squash"
           UPDATE_METHOD: "rebase" 
