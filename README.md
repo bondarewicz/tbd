@@ -1,5 +1,6 @@
 Any pull request is auto-merged 
 
+
 TODO: add simeple test step and require it to pass before merging
 
 Create a new branch of `master` for feature-1
