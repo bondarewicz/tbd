@@ -6,6 +6,7 @@ git checkout master
 git checkout -b feat-1
 git add -A
 git commit -m "f1"
+gh pr create 
 ```
 
 Create a new branch of `master` for feature-2
