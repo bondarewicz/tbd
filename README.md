@@ -6,6 +6,7 @@ TODO: add simple test step and require it to pass before merging
 Create a new branch of `master` for feature-1
 ```
 git checkout master
+git pull --ff-only origin master
 git checkout -b feat-1
 git add -A
 git commit -m "Add feat-1"
@@ -16,6 +17,7 @@ gh pr status
 Create a new branch of `master` for feature-2
 ```
 git checkout master
+git pull --ff-only origin master
 git checkout -b feat-2
 git add -A
 git commit -m "Add feat-2"
