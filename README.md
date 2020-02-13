@@ -8,7 +8,7 @@ Create a new branch of `master` for feature-1
 git checkout master
 git checkout -b feat-1
 git add -A
-git commit -m "Add gh cli cmd"
+git commit -m "Add feat-1"
 gh pr create 
 ```
 
@@ -17,7 +17,8 @@ Create a new branch of `master` for feature-2
 git checkout master
 git checkout -b feat-2
 git add -A
-git commit -m "f2"
+git commit -m "Add feat-2"
+gh pr create 
 ```
 
 Squash merge feat-2 into master first
