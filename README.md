@@ -5,7 +5,7 @@ Create a new branch of `master` for feature-1
 git checkout master
 git checkout -b feat-1
 git add -A
-git commit -m "f1"
+git commit -m "Add gh cli cmd"
 gh pr create 
 ```
 
