@@ -1,4 +1,7 @@
-reamde.md
+Any pull request is auto-merged 
+
+
+TODO: add simple test step and require it to pass before merging
 
 Create a new branch of `master` for feature-1
 ```
@@ -55,6 +58,3 @@ Final state of master
 * 9b1bc0b init
 ```
 
-f5
-
-the end
