@@ -10,7 +10,7 @@ git pull --ff-only origin master
 git checkout -b feat-1
 git add -A
 git commit -m "Add feat-1"
-gh pr create
+gh pr create | hub pull-request -l shipit
 gh pr status
 gh pr list -s all -L 5
 ```
