@@ -12,6 +12,7 @@ git add -A
 git commit -m "Add feat-1"
 gh pr create
 gh pr status
+gh pr list -s all -L 5
 ```
 
 Create a new branch of `master` for feature-2
@@ -23,6 +24,7 @@ git add -A
 git commit -m "Add feat-2"
 gh pr create
 gh pr status
+gh pr list -s all -L 5
 ```
 
 Squash merge feat-2 into master first
