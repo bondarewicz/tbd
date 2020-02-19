@@ -3,16 +3,13 @@ Any pull request is auto-merged
 
 TODO: add simple test step and require it to pass before merging
 
-Create a new branch of `master` for feature-1
+Create a new mob-session branch of `master` for wip
+
 ```
-git checkout master
-git pull --ff-only origin master
-git checkout -b feat-1
-git add -A
-git commit -m "Add feat-1"
-gh pr create | hub pull-request -l shipit
-gh pr status
-gh pr list -s all -L 5
+mob start 10 
+...work here...
+mob next
+mobd
 ```
 
 Create a new branch of `master` for feature-2
@@ -65,25 +62,11 @@ Final state of master
 ```
 
 ```bash
-mobc() {
-  # echo $1
-  # echo $2
-  local msg=$1
-  git commit -m '$1'
-  echo "✓ [git commit -m '$1']"
-}
-```
-
-```bash
 mobd() {
-  
+  git checkout mob-session
+
   gh pr create
-  echo "✓ [gh pr create]"
-
   gh pr status
-  echo "✓ [gh pr status]"
-
   gh pr list -s all -L 3
-  echo "✓ [gh pr list -s all -L 3]"
 }
 ```
