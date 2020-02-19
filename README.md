@@ -9,6 +9,7 @@ Repository itself is configured with [automerge](https://github.com/pascalgn/aut
 - [zsh](https://ohmyz.sh/)
 - [gh cli](https://github.com/cli/cli)
 
+
 ## Config
 
 `.zshrc`
