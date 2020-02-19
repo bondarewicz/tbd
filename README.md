@@ -62,6 +62,10 @@ Final state of master
 ```
 
 ```
+mobn() {
+  mob next
+}
+
 mobs() {
 
   local minutes=$1
