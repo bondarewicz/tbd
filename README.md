@@ -64,6 +64,13 @@ Final state of master
 * 9b1bc0b init
 ```
 
+
+```bash
+mobn() {
+  git checkout mob-session
+}
+```
+
 ```bash
 mobc() {
   local msg=$1
