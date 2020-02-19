@@ -20,7 +20,7 @@ export MOB_DAY=`date +%a`
 export MOB_TIME=`date +%T`
 export MOB_SWARM_TEAM="flock"
 export MOB_USER_EMAIL=`git config user.email`
-export MOB_WIP_BRANCH=$(echo "w$MOB_WEEK_NO-$(echo $MOB_DAY | tr '[:upper:]' '[:lower:]')-$MOB_SWARM_TEAM")
+export MOB_WIP_BRANCH="${MOB_QRT_NO}w${MOB_WEEK_NO}d${MOB_DAY}-${MOB_SWARM_TEAM}-$(echo $MOB_TIMEZONE | tr '[:upper:]' '[:lower:]')"
 export MOB_WIP_COMMIT_MESSAGE="$MOB_WIP_BRANCH $MOB_TIME $MOB_USER_EMAIL"
 
 mobs() {
