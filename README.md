@@ -6,9 +6,11 @@ TODO: add simple test step and require it to pass before merging
 Create a new mob-session branch of `master` for wip
 
 ```
-mobs
+mobs 15
 ...work here...
+...when ready to switch the driver...
 mobn
+...when feature/work is done...
 mobd
 ```
 
