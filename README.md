@@ -74,7 +74,7 @@ fred$ mobs 10
 fred$ mobd
 ```
 
-## Alternative workflow
+## Alternative workflow
 
 Create a new branch of `master` for feature-2
 ```
