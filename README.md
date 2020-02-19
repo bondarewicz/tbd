@@ -64,4 +64,26 @@ Final state of master
 * 9b1bc0b init
 ```
 
-mob finished
+```bash
+mobc() {
+  # echo $1
+  # echo $2
+  local msg=$1
+  git commit -m '$1'
+  echo "✓ [git commit -m '$1']"
+}
+```
+
+```bash
+mobd() {
+  
+  gh pr create
+  echo "✓ [gh pr create]"
+
+  gh pr status
+  echo "✓ [gh pr status]"
+
+  gh pr list -s all -L 3
+  echo "✓ [gh pr list -s all -L 3]"
+}
+```
