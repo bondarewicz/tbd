@@ -6,9 +6,9 @@ TODO: add simple test step and require it to pass before merging
 Create a new mob-session branch of `master` for wip
 
 ```
-mob start 10 
+mobs
 ...work here...
-mob next
+mobn
 mobd
 ```
 
@@ -59,6 +59,25 @@ Final state of master
 | * 931bdc4 (feat-2) f2
 |/  
 * 9b1bc0b init
+```
+
+```
+mobs() {
+
+  local minutes=$1
+
+  if [ -d ".git" ]; then
+    changes=$(git status --porcelain)
+      if [ -z "${changes}" ]; then
+		    git checkout master
+        mob start $minutes
+      else
+        echo "you have uncommited changes"
+      fi
+
+    
+  fi
+}
 ```
 
 ```bash
