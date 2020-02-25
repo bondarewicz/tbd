@@ -40,6 +40,10 @@ mobs() {
   fi
 }
 
+mobn() {
+  mob next
+}
+
 mobd() {
   git checkout mob-session
 
