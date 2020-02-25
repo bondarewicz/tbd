@@ -51,6 +51,10 @@ mobd() {
   gh pr status
   gh pr list -s all -L 3
 }
+
+mobr() {
+  mob reset
+}
 ```
 
 
