@@ -60,7 +60,7 @@ mobd() {
 # simon begins the mob session as typist
 simon$ mobs 10
 # work
-#...after 15 minutes...
+#...after 10 minutes...
 simon$ mobn
 
 # carola takes over as the second typist
