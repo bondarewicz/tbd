@@ -1,4 +1,4 @@
-> TODO: add simple test step and require it to pass before merging
+﻿> TODO: add simple test step and require it to pass before merging
 
 Following workflow is inspired by [this](https://www.remotemobprogramming.org/) approach.
 
@@ -13,6 +13,11 @@ Repository itself is configured with [automerge](https://github.com/pascalgn/aut
 ## Config
 
 `.zshrc`
+
+TODO windows you fool!
+TODO Antonios is being foolish123!
+done
+
 
 ```bash
 export MOB_WEEK_NO=`date +%V`
@@ -132,3 +137,4 @@ Final state of master
 |/  
 * 9b1bc0b init
 ```
+
