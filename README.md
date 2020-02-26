@@ -16,6 +16,7 @@ Repository itself is configured with [automerge](https://github.com/pascalgn/aut
 
 TODO windows you fool!
 TODO Antonios is being foolish123!
+done
 
 
 ```bash
