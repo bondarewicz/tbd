@@ -15,6 +15,8 @@ Repository itself is configured with [automerge](https://github.com/pascalgn/aut
 `.zshrc`
 
 TODO windows you fool!
+TODO Antonios is being foolish!
+
 
 ```bash
 export MOB_WEEK_NO=`date +%V`
