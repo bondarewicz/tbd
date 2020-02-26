@@ -1,4 +1,4 @@
-> TODO: add simple test step and require it to pass before merging
+﻿> TODO: add simple test step and require it to pass before merging
 
 Following workflow is inspired by [this](https://www.remotemobprogramming.org/) approach.
 
@@ -136,3 +136,4 @@ Final state of master
 |/  
 * 9b1bc0b init
 ```
+
