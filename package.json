@@ -1,0 +1,19 @@
+{
+  "name": "tbd",
+  "version": "1.0.0",
+  "description": "> TODO: add simple test step and require it to pass before merging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bondarewicz@github.com/bondarewicz/tbd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondarewicz/tbd/issues"
+  },
+  "homepage": "https://github.com/bondarewicz/tbd#readme"
+}
