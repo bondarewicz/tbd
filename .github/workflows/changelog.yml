@@ -47,4 +47,4 @@ jobs:
         with:
           add: CHANGELOG.md
           message: "chore: Update CHANGELOG.md"
-          branch: main
+          branch: master
