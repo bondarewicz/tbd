@@ -137,4 +137,3 @@ Final state of master
 |/  
 * 9b1bc0b init
 ```
-
