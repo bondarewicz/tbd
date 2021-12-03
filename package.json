@@ -1,6 +1,6 @@
 {
   "name": "tbd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: add simple test step and require it to pass before merging",
   "main": "index.js",
   "scripts": {
